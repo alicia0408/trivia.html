@@ -57,10 +57,9 @@ function check() {
             }
 
 
-         document.getElementById('after_sumibt').style.visibility = "visible";
-
-
-       document.getElementById('messages').innerHTML = messages[range];
-       document.getElementById('number_correct').innerHTML = "Tienes " + correct + " correcta.";
-       document.getElementById('pictures').src = pictures[range];
+         
+            document.getElementById('after_sumibt').style.visibility = "visible";
+            document.getElementById('messages').innerHTML = messages[range];
+            document.getElementById('number_correct').innerHTML = "Tienes " + correct + " correcta.";
+            document.getElementById('pictures').src = pictures[range];
      }

@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-
+<meta charset="utf-8">
 <link rel="stylesheet" href="trivia.css">
+ <title>Tech-Chimuelo</title>
+</head>
+  
+<body>
+    <h1>Trivia Tech-chimuelo</h1>
 
-    <meta charset="utf-8">
-    <title>Tech-Chimuelo</title>
-<script type="text/javascript" src = "app.js">
+    <!--se crea un formulario-->
+    <form id = "trivia" name = "trivia">
 
-</script>
-  </head>
-<h1>Trivia Tech-chimuelo</h1>
-<form id = "trivia" name = "trivia">
-
+      <!--primera pregunta-->
   <p>¿En que pais se fundo Laboratoria?</p>
   <input id = "textbox"  type = "text" name = "question1">
 
+  <!--segunda pregunta-->
   <p>¿Quien es el CEO de Laboratoria?</p>
   <input type="radio" id = "mc" name="question2" value="Barack Obama">Barack Obama<br>
   <input type="radio" id = "mc" name="question2" value="Steve Jobs">Steve Jobs<br>
   <input type="radio" id = "mc" name="question2" value="Grace Hopper">Grace Hopper<br>
   <input type="radio" id = "mc" name="question2" value="Mariana Costa Checa">Mariana Costa Checa<br>
 
+  <!--tercera pregunta-->
   <p>¿En que convierte Laboratoria a sus estudiantes?</p>
   <input type="radio" id = "mc"  name="question3" value="Desarrolladoras Web">Desarrolladoras Web<br>
   <input type="radio" id = "mc"  name="question3" value="Cocineras Profesionales">Cocineras Profesionales<br>
   <input type="radio" id = "mc"  name="question3" value="Desarrolladoras Web o Diseñadora UX">Desarrolladoras Web o Diseñadora UX<br>
 
-
+<!--boton de evento-->
   <input id ="button" type="button" value="¡Termine!" onclick="check();">
 
   <div id = "after_sumibt">
@@ -36,11 +38,8 @@
 <img id = "pictures">
   </div>
 
-
 </form>
-  <body>
-    
-
-    </script>
+  
+<script src="app.js"></script>
   </body>
 </html>
